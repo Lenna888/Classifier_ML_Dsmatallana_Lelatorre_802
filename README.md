@@ -18,13 +18,13 @@ Este proyecto se basa en un conjunto de librerías de Python ampliamente utiliza
 | **`numpy`**  | Proporciona soporte para arrays y matrices, junto con una vasta colección de funciones matemáticas para operar sobre ellos de manera eficiente. |
 | **`matplotlib.pyplot`**  | Es la librería base para la creación de visualizaciones estáticas en Python, como gráficos de líneas, barras e histogramas. |
 | **`seaborn`**  | Construida sobre Matplotlib, esta librería permite crear gráficos estadísticos más complejos y visualmente atractivos con menos código. |
-| **`sklearn.model_selection`** | | Módulo que contiene herramientas para gestionar y dividir los datos antes de entrenar un modelo. Su función principal es asegurar que se evalúe el modelo de forma justa, probando con datos que nunca ha visto antes. 
+| **`sklearn.model_selection`** | Módulo que contiene herramientas para gestionar y dividir los datos antes de entrenar un modelo. Su función principal es asegurar que se evalúe el modelo de forma justa, probando con datos que nunca ha visto antes. 
 | `train_test_split` | Función para dividir el dataset en subconjuntos aleatorios de **entrenamiento (train)** y **prueba (test)**, un paso crucial en el modelado. |
-| **`sklearn.preprocessing`** | | Módulo para la limpieza y transformación de los datos para que el modelo lo entienda mejor y pueda funcionar de manera más eficiente. 
+| **`sklearn.preprocessing`** | Módulo para la limpieza y transformación de los datos para que el modelo lo entienda mejor y pueda funcionar de manera más eficiente. 
 | `StandardScaler` | Herramienta para **estandarizar** los datos (media 0, varianza 1), mejorando el rendimiento de algoritmos como la Regresión Logística. |
-| **`sklearn.linear_model`** | | Módulo que contiene los algoritmos de machine learning a entrenar, incluye modelos que se basan en relaciones lineales entre las variables. 
+| **`sklearn.linear_model`** | Módulo que contiene los algoritmos de machine learning a entrenar, incluye modelos que se basan en relaciones lineales entre las variables. 
 | `LogisticRegression` | Implementación del algoritmo de **Regresión Logística**, el modelo de clasificación seleccionado para este proyecto. |
-| **`sklearn.metrics`** | | Módulo que contiene las herramientas necesarias para la evaluación y calificación del rendimiento del modelo. 
+| **`sklearn.metrics`** | Módulo que contiene las herramientas necesarias para la evaluación y calificación del rendimiento del modelo. 
 | `confusion_matrix` | Calcula la **matriz de confusión**, una tabla que resume el rendimiento del modelo mostrando aciertos y errores (TP, FP, FN, TN). |
 | `classification_report`| Genera un informe de texto con las métricas clave de clasificación: **precisión, recall y f1-score** para cada clase. |
 | `f1_score` | Calcula el **puntaje F1**, la media armónica de la precisión y el recall, una métrica robusta para evaluar clasificadores. |
